@@ -1,0 +1,392 @@
+<div style="background-image: url('images/content_bg.jpg'); position: relative; margin: auto; width: 1024px; min-height: 550px;">
+<div class="box">
+<h2 style="text-rendering: optimizeLegibility; margin: 30px 40px 15px 0px; padding: 0px; border: 0px; outline: 0px; font-stretch: normal; font-size: 1.2em; line-height: 1.2em; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; letter-spacing: 1px; -webkit-font-smoothing: antialiased;">VARIABLES IN UPSET FORGING PROCESS</h2>
+<h2><br style="text-rendering: optimizeLegibility; line-height: 1.4em; color: #333333; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; text-transform: none;" /><span class="blue" style="text-rendering: optimizeLegibility; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-variant-numeric: inherit; font-stretch: inherit; font-size: 16px; line-height: 1.4em; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; color: #333333; text-transform: none;">EFFECT OF FORGING EQUIPMENT ON FORGING PROCESS&nbsp;</span><br style="text-rendering: optimizeLegibility; line-height: 1.4em; color: #333333; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; text-transform: none;" /><br style="text-rendering: optimizeLegibility; line-height: 1.4em; color: #333333; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; text-transform: none;" /><span style="color: #333333; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; text-transform: none;">Each type of forging press or machine (mechanical, hydraulic, screw, hammer) has unique stroke characteristics. One important variable that affects the forming process is press ram speed. Some machines have constant ram speeds (hydraulic press) while others have variable ram speeds (mechanical press).</span><br style="text-rendering: optimizeLegibility; line-height: 1.4em; color: #333333; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; text-transform: none;" /><br style="text-rendering: optimizeLegibility; line-height: 1.4em; color: #333333; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; text-transform: none;" /></h2>
+<center style="text-rendering: optimizeLegibility; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-variant-numeric: inherit; font-stretch: inherit; font-size: 16px; line-height: 1.4em; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; color: #333333; text-transform: none;"><span class="blue" style="text-rendering: optimizeLegibility; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: 1.4em; font-family: inherit; vertical-align: baseline;">HYDRAULIC PRESS SIMULATION</span></center>
+<h2></h2>
+<table width="24" height="258" style="text-rendering: optimizeLegibility; border-spacing: 0px; margin: 20px 0px; padding: 0px; border: 0px; outline: 0px; font-variant-numeric: inherit; font-stretch: inherit; line-height: 1.4em; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; width: 1023px; color: #333333; text-transform: none;">
+<tbody style="text-rendering: optimizeLegibility; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: 1.4em; font-family: inherit; vertical-align: baseline;">
+<tr style="text-rendering: optimizeLegibility; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: 1.4em; font-family: inherit; vertical-align: baseline;">
+<td style="text-rendering: optimizeLegibility; outline: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: 1.4em; font-family: inherit; vertical-align: baseline;">Material</td>
+<td style="text-rendering: optimizeLegibility; outline: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: 1.4em; font-family: inherit; vertical-align: baseline;">:AlZn5.6Mg2.5Cu1.5</td>
+</tr>
+<tr style="text-rendering: optimizeLegibility; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: 1.4em; font-family: inherit; vertical-align: baseline;">
+<td style="text-rendering: optimizeLegibility; outline: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: 1.4em; font-family: inherit; vertical-align: baseline;">Dimension</td>
+<td style="text-rendering: optimizeLegibility; outline: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: 1.4em; font-family: inherit; vertical-align: baseline;">:Height =100 mm,Diameter =100mm</td>
+</tr>
+<tr style="text-rendering: optimizeLegibility; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: 1.4em; font-family: inherit; vertical-align: baseline;">
+<td style="text-rendering: optimizeLegibility; outline: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: 1.4em; font-family: inherit; vertical-align: baseline;">Billet Temperature</td>
+<td style="text-rendering: optimizeLegibility; outline: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: 1.4em; font-family: inherit; vertical-align: baseline;">:300�C</td>
+</tr>
+<tr style="text-rendering: optimizeLegibility; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: 1.4em; font-family: inherit; vertical-align: baseline;">
+<td style="text-rendering: optimizeLegibility; outline: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: 1.4em; font-family: inherit; vertical-align: baseline;">Die Temperature</td>
+<td style="text-rendering: optimizeLegibility; outline: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: 1.4em; font-family: inherit; vertical-align: baseline;">:250�C</td>
+</tr>
+<tr style="text-rendering: optimizeLegibility; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: 1.4em; font-family: inherit; vertical-align: baseline;">
+<td style="text-rendering: optimizeLegibility; outline: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: 1.4em; font-family: inherit; vertical-align: baseline;">% Reduction in height</td>
+<td style="text-rendering: optimizeLegibility; outline: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: 1.4em; font-family: inherit; vertical-align: baseline;">: 50%</td>
+</tr>
+<tr style="text-rendering: optimizeLegibility; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: 1.4em; font-family: inherit; vertical-align: baseline;">
+<td style="text-rendering: optimizeLegibility; outline: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: 1.4em; font-family: inherit; vertical-align: baseline;">Press</td>
+<td style="text-rendering: optimizeLegibility; outline: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: 1.4em; font-family: inherit; vertical-align: baseline;">:Hydraulic</td>
+</tr>
+</tbody>
+</table>
+<center><video width="70%" height="540" controls="controls">
+  <source src="http://msvs-dei.vlabs.ac.in/UPSETTING/Upset_Sim/U_HYD_AL_HOT_F0_LD1_V1_G.mp4" type="video/mp4" />
+  
+</video></center><br /> <br />
+<table>
+<tbody>
+<tr>
+<td>Material</td>
+<td>:CK45</td>
+</tr>
+<tr>
+<td>Dimension</td>
+<td>:Height =100 mm,&nbsp;&nbsp;&nbsp;&nbsp;Diameter =100mm</td>
+</tr>
+<tr>
+<td>Billet Temperature</td>
+<td>:1050�C</td>
+</tr>
+<tr>
+<td>Die Temperature</td>
+<td>:250�C</td>
+</tr>
+<tr>
+<td>% Reduction in height&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>: 50%</td>
+</tr>
+<tr>
+<td>Press</td>
+<td>:Hydraulic</td>
+</tr>
+</tbody>
+</table>
+<br /><center><video width="70%" height="540" controls="controls">
+  <source src="http://msvs-dei.vlabs.ac.in/UPSETTING/Upset_Sim/U_HYD_STEEL_HOT_FM_LD1_V1.mp4" type="video/mp4" />
+  
+</video></center><br /> <br />
+<table>
+<tbody>
+<tr>
+<td>Material</td>
+<td>:Ti6Alv4</td>
+</tr>
+<tr>
+<td>Dimension</td>
+<td>:Height =100 mm,&nbsp;&nbsp;&nbsp;&nbsp;Diameter =100mm</td>
+</tr>
+<tr>
+<td>Billet Temperature</td>
+<td>:1200�C</td>
+</tr>
+<tr>
+<td>Die Temperature</td>
+<td>:250�C</td>
+</tr>
+<tr>
+<td>% Reduction in height&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>: 50%</td>
+</tr>
+<tr>
+<td>Press</td>
+<td>:Hydraulic</td>
+</tr>
+</tbody>
+</table>
+<br /><center><video width="70%" height="540" controls="controls">
+  <source src="http://msvs-dei.vlabs.ac.in/UPSETTING/Upset_Sim/U_HYD_TI_HOT_FM_LD1_V1_g.mp4" />
+  
+</video></center><br /> <br />
+<table>
+<tbody>
+<tr>
+<td>Material</td>
+<td>:CuZn40Al2</td>
+</tr>
+<tr>
+<td>Dimension</td>
+<td>:Height =100 mm,&nbsp;&nbsp;&nbsp;&nbsp;Diameter =100mm</td>
+</tr>
+<tr>
+<td>Billet Temperature</td>
+<td>:650�C</td>
+</tr>
+<tr>
+<td>Die Temperature</td>
+<td>:250�C</td>
+</tr>
+<tr>
+<td>% Reduction in height&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>: 50%</td>
+</tr>
+<tr>
+<td>Press</td>
+<td>:Hydraulic</td>
+</tr>
+</tbody>
+</table>
+<br /><video width="70%" height="540" controls="controls">
+  <source src="http://msvs-dei.vlabs.ac.in/UPSETTING/Upset_Sim/U_HYD_CU_HOT_F0_LD1_V1.mp4" />
+  
+</video><br /><br /><center><span class="blue">MECHANICAL PRESS SIMULATION</span></center><br />
+<table>
+<tbody>
+<tr>
+<td>Material</td>
+<td>:AlZn5.6Mg2.5Cu1.5</td>
+</tr>
+<tr>
+<td>Dimension</td>
+<td>:Height =100 mm,&nbsp;&nbsp;&nbsp;&nbsp;Diameter =100mm</td>
+</tr>
+<tr>
+<td>Billet Temperature</td>
+<td>:300�C</td>
+</tr>
+<tr>
+<td>Die Temperature</td>
+<td>:250�C</td>
+</tr>
+<tr>
+<td>% Reduction in height&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>: 50%</td>
+</tr>
+<tr>
+<td>Press</td>
+<td>:Mechanical</td>
+</tr>
+</tbody>
+</table>
+<br /><video width="70%" height="540" controls="controls">
+  <source src="http://msvs-dei.vlabs.ac.in/UPSETTING/Upset_Sim/U_MEC_AL_HOT_FM_LD1_V1_g.mp4" />
+  
+</video><br /> <br />
+<table>
+<tbody>
+<tr>
+<td>Material</td>
+<td>:CK45</td>
+</tr>
+<tr>
+<td>Dimension</td>
+<td>:Height =100 mm,&nbsp;&nbsp;&nbsp;&nbsp;Diameter =100mm</td>
+</tr>
+<tr>
+<td>Billet Temperature</td>
+<td>:1050�C</td>
+</tr>
+<tr>
+<td>Die Temperature</td>
+<td>:250�C</td>
+</tr>
+<tr>
+<td>% Reduction in height&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>: 50%</td>
+</tr>
+<tr>
+<td>Press</td>
+<td>:Mechanical</td>
+</tr>
+</tbody>
+</table>
+<br /><video width="70%" height="540" controls="controls">
+  <source src="http://msvs-dei.vlabs.ac.in/UPSETTING/Upset_Sim/U_MEC_STEEL_HOT_FM_LD1_V1.mp4" />
+  
+</video><br /> <br />
+<table>
+<tbody>
+<tr>
+<td>Material</td>
+<td>:Ti6Alv4</td>
+</tr>
+<tr>
+<td>Dimension</td>
+<td>:Height =100 mm,&nbsp;&nbsp;&nbsp;&nbsp;Diameter =100mm</td>
+</tr>
+<tr>
+<td>Billet Temperature</td>
+<td>:1200�C</td>
+</tr>
+<tr>
+<td>Die Temperature</td>
+<td>:250�C</td>
+</tr>
+<tr>
+<td>% Reduction in height&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>: 50%</td>
+</tr>
+<tr>
+<td>Press</td>
+<td>:Mechanical</td>
+</tr>
+</tbody>
+</table>
+<br /><video width="70%" height="540" controls="controls">
+  <source src="http://msvs-dei.vlabs.ac.in/UPSETTING/Upset_Sim/U_MEC_TI_HOT_FM_LD1_V1.mp4" />
+  
+</video><br /> <br />
+<table>
+<tbody>
+<tr>
+<td>Material</td>
+<td>:CuZn40Al2</td>
+</tr>
+<tr>
+<td>Dimension</td>
+<td>:Height =100 mm,&nbsp;&nbsp;&nbsp;&nbsp;Diameter =100mm</td>
+</tr>
+<tr>
+<td>Billet Temperature</td>
+<td>:650�C</td>
+</tr>
+<tr>
+<td>Die Temperature</td>
+<td>:250�C</td>
+</tr>
+<tr>
+<td>% Reduction in height&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>: 50%</td>
+</tr>
+<tr>
+<td>Press</td>
+<td>:Mechanical</td>
+</tr>
+</tbody>
+</table>
+<br /><center><video width="70%" height="540" controls="controls">
+  <source src="http://msvs-dei.vlabs.ac.in/UPSETTING/Upset_Sim/U_MEC_CU_HOT_F0_LD1_V1.mp4" />
+  
+</video></center><br /><center><span class="blue">HAMMER PRESS SIMULATION</span></center><br />
+<table>
+<tbody>
+<tr>
+<td>Material</td>
+<td>:AlZn5.6Mg2.5Cu1.5</td>
+</tr>
+<tr>
+<td>Dimension</td>
+<td>:Height =100 mm,&nbsp;&nbsp;&nbsp;&nbsp;Diameter =100mm</td>
+</tr>
+<tr>
+<td>Billet Temperature</td>
+<td>:300�C</td>
+</tr>
+<tr>
+<td>Die Temperature</td>
+<td>:250�C</td>
+</tr>
+<tr>
+<td>% Reduction in height&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>: 50%</td>
+</tr>
+<tr>
+<td>Press</td>
+<td>:Hammer</td>
+</tr>
+</tbody>
+</table>
+<br /><video width="70%" height="540" controls="controls">
+  <source src="http://msvs-dei.vlabs.ac.in/UPSETTING/Upset_Sim/U_HAM_AL_HOT_FM_LD1_V1_g.mp4" />
+  
+</video><br /> <br />
+<table>
+<tbody>
+<tr>
+<td>Material</td>
+<td>:CK45</td>
+</tr>
+<tr>
+<td>Dimension</td>
+<td>:Height =100 mm,&nbsp;&nbsp;&nbsp;&nbsp;Diameter =100mm</td>
+</tr>
+<tr>
+<td>Billet Temperature</td>
+<td>:1050�C</td>
+</tr>
+<tr>
+<td>Die Temperature</td>
+<td>:250�C</td>
+</tr>
+<tr>
+<td>% Reduction in height&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>: 50%</td>
+</tr>
+<tr>
+<td>Press</td>
+<td>:Hammer</td>
+</tr>
+</tbody>
+</table>
+<br /><video width="70%" height="540" controls="controls">
+  <source src="http://msvs-dei.vlabs.ac.in/UPSETTING/Upset_Sim/U_HAM_STEEL_HOT_FM_LD1_V1.mp4" />
+  
+</video><br /> <br />
+<table>
+<tbody>
+<tr>
+<td>Material</td>
+<td>:Ti6Alv4</td>
+</tr>
+<tr>
+<td>Dimension</td>
+<td>:Height =100 mm,&nbsp;&nbsp;&nbsp;&nbsp;Diameter =100mm</td>
+</tr>
+<tr>
+<td>Billet Temperature</td>
+<td>:1200�C</td>
+</tr>
+<tr>
+<td>Die Temperature</td>
+<td>:250�C</td>
+</tr>
+<tr>
+<td>% Reduction in height&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>: 50%</td>
+</tr>
+<tr>
+<td>Press</td>
+<td>:Hammer</td>
+</tr>
+</tbody>
+</table>
+<br /><video width="70%" height="540" controls="controls">
+  <source src="http://msvs-dei.vlabs.ac.in/UPSETTING/Upset_Sim/U_HAM_TI_HOT_FM_LD1_V1.mp4" />
+  
+</video><br /> <br />
+<table>
+<tbody>
+<tr>
+<td>Material</td>
+<td>:CuZn40Al2</td>
+</tr>
+<tr>
+<td>Dimension</td>
+<td>:Height =100 mm,&nbsp;&nbsp;&nbsp;&nbsp;Diameter =100mm</td>
+</tr>
+<tr>
+<td>Billet Temperature</td>
+<td>:650�C</td>
+</tr>
+<tr>
+<td>Die Temperature</td>
+<td>:250�C</td>
+</tr>
+<tr>
+<td>% Reduction in height&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>: 50%</td>
+</tr>
+<tr>
+<td>Press</td>
+<td>:Hammer</td>
+</tr>
+</tbody>
+</table>
+<br /><video width="70%" height="540" controls="controls">
+  <source src="http://msvs-dei.vlabs.ac.in/UPSETTING/Upset_Sim/U_HAM_CU_HOT_F0_LD1_V1_g.mp4" />
+  
+</video></div>
+</div>
+<p></p>
