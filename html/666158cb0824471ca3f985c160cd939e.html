@@ -1,0 +1,21 @@
+<p><video controls="controls" src="http://msvs-dei.vlabs.ac.in/Quenching/StrainQuenching.mp4" height="600px" width="100%"></video></p>
+<p>On the left hand side, quenching process can be visualized and one could see the length of meshed rod being changed when cooled from higher temperature to lower temperature. The top right hand corner shows, the temperature change over the surface of rod. The bottom right hand corner shows, equivalent strains generated over the cross section of rod, in middle, during the quenching process.&nbsp;</p>
+<script>// <![CDATA[
+// ****** ALSO MODIFY THE URLS GIVEN ABOVE **************
+// ********MODIFY THIS SECTION **************************
+
+var lab_id = "MECH26"; 
+var exp_name = "Quenching"
+var lab_name = "Metal Forming Virtual Simulation Lab"
+var user_id = "%%USER_ID%%"; //get the User ID as a string  
+var exp_id = "E99866"
+
+var server_url = "http://analytics-api.vlabs.ac.in:4000/"
+
+var xhttp = new XMLHttpRequest();
+var urlstr = server_url + user_id + "," + lab_id + "," + lab_name + "," + exp_id + "," + exp_name
+xhttp.open("GET", urlstr, true);
+xhttp.send();
+
+// *******DO NOT MODIFY THIS SECTION AGAIN ************
+// ]]></script>

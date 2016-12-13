@@ -1,0 +1,61 @@
+<center><span style="font-size: 2em; color: #ff00ff; text-decoration: underline;">Interactive Bench of Simulations for Rolling Process</span><form method="post" onsubmit="return valid(this)" action="Rolling.php">
+<table border="0" cellpadding="0" cellspacing="28">
+<tbody>
+<tr>
+<td>
+<h1>Material</h1>
+</td>
+<td>:</td>
+<td><input name="mat" value="Al" type="radio" /><b>Aluminium</b></td>
+<td><input name="mat" value="Cu" type="radio" /><b>Copper</b></td>
+<td><input name="mat" value="Steel" type="radio" /><b>Ck-45 Steel</b></td>
+</tr>
+<tr>
+<td>
+<h1>Coefficient of Friction</h1>
+</td>
+<td>:</td>
+<td><input name="fr" value="0" type="radio" /><b>Low</b></td>
+<td><input name="fr" value="Medium" type="radio" /><b>Medium</b></td>
+<td><input name="fr" value="High" type="radio" /><b>High</b></td>
+</tr>
+<tr>
+<td>
+<h1>Velocity of Ram/ Speed</h1>
+</td>
+<td>:</td>
+<td><input name="speed" value="0.5" type="radio" /><b>0.5 mm/sec</b></td>
+<td><input name="speed" value="1" type="radio" /><b>1 mm/sec</b></td>
+<td><input name="speed" value="1.5" type="radio" /><b>1.5 mm/sec</b></td>
+</tr>
+<tr>
+<td>
+<h1>Material/ Workpiece Temperature</h1>
+</td>
+<td>:</td>
+<td><input name="m/w" value="Cold" type="radio" /><b>Cold</b></td>
+<td><input name="m/w" value="Hot" type="radio" /><b>Hot</b></td>
+</tr>
+</tbody>
+</table>
+<center><input name="send" value="Submit" type="submit" /> <input name="reset_form" value="Reset Form" onclick="this.form.reset();" type="button" /></center></form></center>
+<p></p>
+<script>// <![CDATA[
+// ****** ALSO MODIFY THE URLS GIVEN ABOVE **************
+// ********MODIFY THIS SECTION **************************
+
+var lab_id = "MECH26"; 
+var exp_name = "Rolling Process"
+var lab_name = "Metal Forming Virtual Simulation Lab"
+var user_id = "%%USER_ID%%"; //get the User ID as a string  
+var exp_id = "E99878"
+
+var server_url = "http://analytics-api.vlabs.ac.in:4000/"
+
+var xhttp = new XMLHttpRequest();
+var urlstr = server_url + user_id + "," + lab_id + "," + lab_name + "," + exp_id + "," + exp_name
+xhttp.open("GET", urlstr, true);
+xhttp.send();
+
+// *******DO NOT MODIFY THIS SECTION AGAIN ************
+// ]]></script>
